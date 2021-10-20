@@ -1,4 +1,4 @@
-# Git search engine
+# Git-search-engine
 
 # Author
 Dickson Njuguna
