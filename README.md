@@ -57,7 +57,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 *Github (gh-pages):(not-available-now)
 
 
-### License
+### License....
 
 *MIT*
 Copyright (c) 2021 **Dickson Njuguna**
