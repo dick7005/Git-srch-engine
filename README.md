@@ -1,7 +1,7 @@
 # Git-search-engine
 
 # Author
-Dickson Njuguna
+Dickson Njuguna..
 
 # *project description
 
