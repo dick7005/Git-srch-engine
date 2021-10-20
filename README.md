@@ -50,7 +50,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## *contact
 *Tell:0757116399
 
-*Email:pythonscript254@gmail.com
+*Email:pythonscript254@gmail.com.
 
 *Github:https://github.com/dick7005/Git-srch-engine
 
