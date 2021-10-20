@@ -9,12 +9,13 @@ input {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    
 }
 
 
 input[type=submit] {
     background-color: #056b5b;
-    color: white;
+    color: pink;
     text-align: center;
     /* width: 50%; */
 }
