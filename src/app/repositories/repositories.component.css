@@ -25,6 +25,8 @@ p {
     margin: 0;
     justify-content: left;
     align-items: left;
+    color: white;
+    background-color: white;
     /*position: sticky;*/
 }
 

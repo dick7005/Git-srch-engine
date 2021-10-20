@@ -2,6 +2,8 @@
 table {
     border-collapse: collapse;
     width: 100%;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {*/
     /*background-color: red;*/
@@ -13,9 +15,11 @@ table {
 }
 .desc{
     text-align: left;
+    color:black;
 }
 tr {
     font-size: 16px;
+    color: orange;
 }
 a:hover {
     text-decoration: none;
