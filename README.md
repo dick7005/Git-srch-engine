@@ -25,7 +25,7 @@ This is a angular based project with the aim of learning new objectives  in the 
 - 
 
 
-## Development
+## Development...
 
 The web page is accesable for collabos and participate in the making of the web
 
