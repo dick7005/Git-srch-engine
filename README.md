@@ -5,9 +5,7 @@ Dickson Njuguna
 
 # *project description
 
-This is a project based on angular ..main aim is making a
-(quote-generator) that allows one to post a new quote
-..like ..dislike...and delete the quote if need be.
+This is a angular based project with the aim of learning new objectives  in the angular framework by learning services and equiring data from data base and storing it to our data base....the project function is that the user is able to search the own github usernames and repository and see ther projectse.
 
 
 ## Technologies Used
