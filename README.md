@@ -50,9 +50,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 *Email:pythonscript254@gmail.com
 
-*Github:https://github.com/dick7005/quote-generator
+*Github:https://github.com/dick7005/Git-srch-engine
 
-*Github (gh-pages):https://dick7005.github.io/quote-generator/
+*Github (gh-pages):(not-available-now)
 
 
 ### License
