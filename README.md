@@ -20,8 +20,9 @@ This is a angular based project with the aim of learning new objectives  in the 
 
 ## Setup Instructions
 
-- The app is staight forward .available on the github -ghpages..
+- The app is staight forward .available on the github -ghpages..(not at the moment)
 - no installation required
+- 
 
 
 ## Development
