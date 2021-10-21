@@ -25,7 +25,7 @@ This is a angular based project with the aim of learning new objectives  in the 
 - 
 
 
-## Development
+## Development...
 
 The web page is accesable for collabos and participate in the making of the web
 
@@ -37,7 +37,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Add changes to reflect the changes made
 - Commit your changes (git commit -am 'Improve feature')
 - Push to the branch (git push origin improve-feature)
-- Create a Pull Request
+- Create a Pull Request ad done
 
 
 ## Known Bugs
@@ -50,14 +50,14 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## *contact
 *Tell:0757116399
 
-*Email:pythonscript254@gmail.com
+*Email:pythonscript254@gmail.com.
 
 *Github:https://github.com/dick7005/Git-srch-engine
 
 *Github (gh-pages):(not-available-now)
 
 
-### License
+### License....
 
 *MIT*
 Copyright (c) 2021 **Dickson Njuguna**

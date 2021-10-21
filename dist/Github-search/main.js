@@ -65,7 +65,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'GitHub Search';
+        this.title = 'GitHub-Srch-engine';
     }
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -169,7 +169,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".navbar-dark a {\n    /*float: left;*/\n    display: block;\n    color: dodgerblue;\n    text-align: center;\n    padding: 15px 17px;\n    font-size: 20px;\n    text-align: center;\n}\n\n\n* {box-sizing: border-box;}\n\n\n.navbar-dark {\n    overflow: hidden;\n    background-color: #056b5b;\n}\n"
+module.exports = ".navbar-dark a {\n    /*float: left;*/\n    display: block;\n    color: dodgerblue;\n    text-align: center;\n    padding: 15px 17px;\n    font-size: 20px;\n    text-align: center;\n}\n\n\n* {box-sizing: border-box;}\n\n\n.navbar-dark {\n    overflow: hidden;\n    background-image: url(wwod.jpg);\n    width: 100%;\n    height: 30vh;\n    \n\n    \n}\n\n\n.ass{\n    width: 50%;\n    height: 50vh;\n    margin-left: 500px;\n    margin-bottom: 10px;\n\n}"
 
 /***/ }),
 
@@ -180,7 +180,7 @@ module.exports = ".navbar-dark a {\n    /*float: left;*/\n    display: block;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"navbar-dark\">\n    <a class=\"nav-link\" routerLink=\"/users\" routerLinkActive=\"active\">Users</a>\n    <a class=\"nav-link\" routerLink=\"/repository\" routerLinkActive=\"active\">Repositories</a>\n</div>\n<router-outlet></router-outlet>"
+module.exports = "<div class=\"navbar-dark\">\n    <a class=\"nav-link\" routerLink=\"/users\" routerLinkActive=\"active\">Users</a>\n    <a class=\"nav-link\" routerLink=\"/repository\" routerLinkActive=\"active\">Repositories</a>\n    \n</div>\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -232,7 +232,7 @@ var NavbarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/*body*/\n.container{\n    margin-top: 5rem;\n}\np {\n    text-indent: 2rem;\n    font-family: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n.btn{\n    margin-top: 30px;\n    background-color: #056b5b;\n}\n.seeMorebtn{\n    text-align: center;\n}\n.display{\n    float: left;\n    margin-bottom: 0.3rem;\n}\n/*user form*/\n.search-form p {\n    font-size: 30px;\n    margin: 0;\n    justify-content: left;\n    align-items: left;\n    /*position: sticky;*/\n}\n\n"
+module.exports = "/*body*/\n.container{\n    margin-top: 5rem;\n}\np {\n    text-indent: 2rem;\n    font-family: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n.btn{\n    margin-top: 30px;\n    background-color: orange;\n}\n.seeMorebtn{\n    text-align: center;\n}\n.display{\n    float: left;\n    margin-bottom: 0.3rem;\n}\n/*user form*/\n.search-form p {\n    font-size: 30px;\n    margin: 0;\n    justify-content: left;\n    align-items: left;\n    color: white;\n    background-color: white;\n    /*position: sticky;*/\n}\n\n"
 
 /***/ }),
 
@@ -384,7 +384,7 @@ var RoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n\ninput {\n     width: 100%;\n    padding: 12px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    box-sizing: border-box;\n    margin-top: 6px;\n    margin-bottom: 16px;\n}\n\n\ninput[type=submit] {\n    background-color: #056b5b;\n    color: white;\n    text-align: center;\n    /* width: 50%; */\n}\n\n\nbutton {\n    background-color: #056b5b;\n    color: white;\n    padding: 14px 20px;\n    margin: 8px 0;\n    border: none;\n    cursor: pointer;\n    /* width: 100%; */\n    opacity: 0.9;\n}\n\n\nform {\n    background-color: #f1f1f1;\n    padding: 20px;\n    width: 100vh;\n     /*height: 100%; */\n}"
+module.exports = "\n\n\ninput {\n     width: 100%;\n    padding: 12px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    box-sizing: border-box;\n    margin-top: 6px;\n    margin-bottom: 16px;\n    \n}\n\n\ninput[type=submit] {\n    background-color: #056b5b;\n    color: pink;\n    text-align: center;\n    /* width: 50%; */\n}\n\n\nbutton {\n    background-color: #056b5b;\n    color: white;\n    padding: 14px 20px;\n    margin: 8px 0;\n    border: none;\n    cursor: pointer;\n    /* width: 100%; */\n    opacity: 0.9;\n}\n\n\nform {\n    background-color: #f1f1f1dc;\n    padding: 20px;\n    width: 100vh;\n     /*height: 100%; */\n}"
 
 /***/ }),
 
@@ -635,7 +635,7 @@ var User = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\ntable {\n    border-collapse: collapse;\n    width: 100%;\n}\n/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {*/\n/*background-color: red;*/\n/*}*/\n/*github user repos*/\n.my-repos p {\n    text-indent: 3rem;\n    text-align: left;\n}\n.desc{\n    text-align: left;\n}\ntr {\n    font-size: 16px;\n}\na:hover {\n    text-decoration: none;\n}\ntd a {\n    font-size: 25px;\n}\np {\n    text-indent: 2rem;\n    font-family: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n.col-md-12 {\n    text-align: center;\n}\n.container {\n    margin-top: 2rem;\n}\n/* profile*/\nimg {\n    max-width: 60%;\n    border-radius: 600px;\n}\n.image-right {\n    padding-top: 8rem;\n    text-align: center;\n}\n/**/\n\n"
+module.exports = "\ntable {\n    border-collapse: collapse;\n    width: 100%;\n    background-color: white;\n    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n}\n/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {*/\n/*background-color: red;*/\n/*}*/\n/*github user repos*/\n.my-repos p {\n    text-indent: 3rem;\n    text-align: left;\n}\n.desc{\n    text-align: left;\n    color:black;\n}\ntr {\n    font-size: 16px;\n    color: orange;\n}\na:hover {\n    text-decoration: none;\n}\ntd a {\n    font-size: 25px;\n}\np {\n    text-indent: 2rem;\n    font-family: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n.col-md-12 {\n    text-align: center;\n}\n.container {\n    margin-top: 2rem;\n}\n/* profile*/\nimg {\n    max-width: 60%;\n    border-radius: 600px;\n}\n.image-right {\n    padding-top: 8rem;\n    text-align: center;\n}\n/**/\n\n"
 
 /***/ }),
 
@@ -646,7 +646,7 @@ module.exports = "\ntable {\n    border-collapse: collapse;\n    width: 100%;\n}
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <ng-progress></ng-progress>\n  <div class=\"row \">\n    <div class=\"col-md-12\">\n      <app-search-form (getName)='findUser($event)'></app-search-form>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div class=\"table table-striped table-bordered\">\n        <h3> {{users.name}}</h3>\n        <table class=\"table table-striped table-light\">\n          <tbody>\n          <tr>\n            <th scope=\"row\">Github Username:</th>\n              <td> <a href=\"{{users.html_url}}\" target=\"_blank\">{{users.login}}</a></td>\n\n          </tr>\n          <tr>\n            <th scope=\"row\">Repositories:</th>\n            <td>{{users.public_repos }}</td>\n          </tr>\n          <tr>\n            <th scope=\"row\">Date created:</th>\n            <td>{{users.created_at | date}}</td>\n          </tr>\n          <tr>\n            <th scope=\"row\">Followers:</th>\n            <td>{{users.followers}}</td>\n          </tr>\n          <tr>\n            <th scope=\"row\">Following</th>\n            <td>{{users.following}}</td>\n          </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n    <div class=\"col-md-5 image-end\">\n      <img src=\"{{users.avatar_url}}\">\n    </div>\n  </div>\n  <hr>\n</div>\n<div class=\"container\">\n  <div class=\"row\">\n    <div  class=\"col-md-12\">\n      <h2 style=\"color: #056b5b\" > User Repositories</h2>\n      <div class=\"table table-striped\">\n        <table class=\"table\">\n          <tbody>\n          <tr *ngFor='let repository of userRepos.newRepository'>\n            <td>\n                <a href=\"{{repository.html_url}}\" target=\"_blank\" >{{repository.name}}</a>\n\n                <br>\n              <p class=\"desc\">Description: {{repository.description}}</p>\n              <br>\n              <p>Date Created: {{repository.created_at | date}}</p>\n            </td>\n          </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\">\n  <ng-progress></ng-progress>\n  <div class=\"row \">\n    <div class=\"col-md-12\">\n      <app-search-form (getName)='findUser($event)'></app-search-form>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div class=\"table table-striped table-bordered\">\n        <h3> {{users.name}}</h3>\n        <table class=\"table table-striped table-light\">\n          <tbody>\n          <tr>\n            <th scope=\"row\">Github Username:</th>\n              <td> <a href=\"{{users.html_url}}\" target=\"_blank\">{{users.login}}</a></td>\n\n          </tr>\n          <tr>\n            <th scope=\"row\">Repositories:</th>\n            <td>{{users.public_repos }}</td>\n          </tr>\n          <tr>\n            <th scope=\"row\">Date created:</th>\n            <td>{{users.created_at | date}}</td>\n          </tr>\n          <tr>\n            <th scope=\"row\">Followers:</th>\n            <td>{{users.followers}}</td>\n          </tr>\n          <tr>\n            <th scope=\"row\">Following</th>\n            <td>{{users.following}}</td>\n          </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n    <div class=\"col-md-5 image-end\">\n      <img src=\"{{users.avatar_url}}\">\n    </div>\n  </div>\n  <hr>\n</div>\n<div class=\"container\">\n  <div class=\"row\">\n    <div  class=\"col-md-12\">\n      <h2 style=\"color: orange\" > User Repositories</h2>\n      <div class=\"table table-striped\">\n        <table class=\"table\">\n          <tbody>\n          <tr *ngFor='let repository of userRepos.newRepository'>\n            <td>\n                <a href=\"{{repository.html_url}}\" target=\"_blank\" >{{repository.name}}</a>\n\n                <br>\n              <p class=\"desc\">Description: {{repository.description}}</p>\n              <br>\n              <p>Date Created: {{repository.created_at | date}}</p>\n            </td>\n          </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -677,7 +677,7 @@ var SearchComponent = /** @class */ (function () {
     function SearchComponent(githubUserRequest, userRepos) {
         this.githubUserRequest = githubUserRequest;
         this.userRepos = userRepos;
-        this.searchMe = 'wanjiiru';
+        this.searchMe = 'dick7005';
         this.resultCount = 12;
     }
     SearchComponent.prototype.findUser = function (username) {
@@ -726,7 +726,8 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    myApi: '8d519577963aecac686226e04976f1c31f02b53a'
+    myApi: '8d519577963aecac686226e04976f1c31f02b53a',
+    gitAccessToken: "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"
 };
 /*
  * In development mode, to ignore zone related error stack frames such as
@@ -772,7 +773,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/liz/Code/Angularjs/Github-search/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/user/Desktop/Git-srch-engine/Github-search-master/src/main.ts */"./src/main.ts");
 
 
 /***/ })
